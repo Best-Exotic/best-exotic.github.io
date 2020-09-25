@@ -1,0 +1,57 @@
+
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font: 112.5%/1.45em georgia, serif, sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+
+  background-color: #22355c;
+  font-family: "baloo 2", "helvetica neue", sans-serif;
+  color: white
+}
+
+.split-pane-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.split-pane {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.left-pane {
+  background-image: url("./imgs/map.png");
+}
+
+.right-pane {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10vw;
+}
+
+.right-pane > p {
+  max-width: 40vw;
+}
+
+.links > a {
+  color: #bababa;
+  text-decoration: none;
+}
