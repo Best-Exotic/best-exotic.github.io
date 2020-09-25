@@ -1,0 +1,21 @@
+
+.container {
+  margin-top: 25vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  max-width: 750px;
+}
+
+h1 {
+  margin-bottom: 5vh;
+}
+
+p {
+  font-size: 90%;
+}
+
+img {
+  width: 40vw;
+  height: auto;
+  margin: auto;
+}
