@@ -3,12 +3,19 @@ h1 {
   margin-bottom: 5vh;
 }
 
+h2 {
+  margin-top: 5vh;
+}
+
 p {
   font-size: 90%;
 }
 
 img {
-  width: 40vw;
+  width: 100%;
+  max-width: 100%;
   height: auto;
-  margin: auto;
+
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
