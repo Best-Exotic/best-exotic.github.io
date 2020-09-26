@@ -18,3 +18,10 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+.main {
+  margin-top: 25vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  max-width: 750px;
+}
